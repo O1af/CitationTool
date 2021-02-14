@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Citation Tool</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>Insert Link :</h1>
+      <input type="text" value="" id="link" />
+      <h1>Insert Title :</h1>
+      <input type="text" value="" id="title" />
+      <h1>Insert Author:</h1>
+      <input type="text" value="" id="author" />
+      <h1>Insert Publication Date:</h1>
+      <input type="text" value="" id="publicationDate" />
+      <br />
+      <br />
+      <button onclick="Cite()">Submit</button>
+      <h1>Citation:</h1>
+      <input type="text" value="" id="output"></input>
+      <button onclick="Copy()">Copy text</button>
+    </main>
+    <footer></footer>
+  </body>
+</html>
